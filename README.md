@@ -50,13 +50,13 @@ cookit/src
 
   * DTO : **class**
 
-  * DAO : :arrow_backward: Context > DataSource > Connection > PreparedStatement > sql - ResultSet or int
+  * DAO : Context > DataSource > Connection > PreparedStatement > sql - ResultSet or int
 
   * ...Command: **class**
 
   * Command(interface): **interface**
   
-      :arrow_backward: ...Command : **class**
+       >...Command : **class**
       
   * BFront: **class**
 
