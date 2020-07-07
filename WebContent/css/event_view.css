@@ -1,0 +1,262 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style-type: none;
+}
+
+em {
+	font-style: normal;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+section {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+section>div.view {
+	width: 100%;
+	padding: 72px 0 140px;
+}
+
+section>div.view>div>h1 {
+	color: #101010;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 56px;
+}
+
+section>div.view>div>div {
+	margin-top: 46px;
+}
+
+section>div.view>div:nth-child(1)>div>div:nth-child(1) {
+	position: relative;
+	padding: 32px 24px;
+	background-color: #f7f7f7;
+	border-top: 2px solid #202020;
+	background-color: #f7f7f7;
+}
+
+section>div.view>div:nth-child(1)>div>div:nth-child(1)>h2 {
+	font-size: 28px;
+	line-height: 42px;
+	font-weight: 700;
+	color: #101010;
+}
+
+section>div.view>div:nth-child(1)>div>div:nth-child(1)>h2>span {
+	display: block;
+	padding-top: 6px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #606060;
+	font-weight: 400px;
+}
+
+section>div.view>div:nth-child(1)>div>div:nth-child(1)>div {
+	position: absolute;
+	top: 42px;
+	right: 24px;
+}
+
+section>div.view>div:nth-child(1)>div>div:nth-child(1)>div>a {
+	position: relative;
+	width: auto;
+	height: auto;
+}
+
+section>div.view>div:nth-child(1)>div>div:nth-child(1)>div>a>span {
+	display: block;
+	position: block;
+	padding-left: 28px;
+	color: #606060;
+	font-size: 15px;
+	line-height: 23px;
+	font-weight: 400;
+}
+
+section>div.view>div:nth-child(1)>div>div:nth-child(1)>div>a>span::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -2px;
+	left: 0;
+	width: 30px;
+	height: 30px;
+	background: url('../images/event_set.png') no-repeat;
+	background-size: 800px 800px;
+	background-position: -454px -80px;
+}
+
+section>div.view>div:nth-child(1)>div>div:nth-child(2) {
+	width: 1180px;
+	vertical-align: middle;
+}
+
+section>div.view>div:nth-child(1)>div>ul:nth-child(3) {
+	width: 100%;
+	margin-top: 40px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ddd;
+	font-size: 0;
+	text-align: center;
+}
+
+section>div.view>div:nth-child(1)>div>ul:nth-child(3)>li {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 20px;
+	width: 362px;
+	height: 262px;
+	padding: 0 90px 0 40px;
+	box-sizing: border-box;
+	background: url('../images/img_coupon.png') no-repeat;
+	vertical-align: top;
+	text-align: left;
+}
+
+section>div.view>div:nth-child(1)>div>ul:nth-child(3)>li::before {
+	content: '';
+	display: block;
+	overflow: hidden;
+}
+
+section>div.view>div:nth-child(1)>div>ul:nth-child(3)>li>p {
+	margin-top: 25px;
+	font-size: 22px;
+	line-height: 52px;
+	color: #8d4d2e;
+}
+
+section>div.view>div:nth-child(1)>div>ul:nth-child(3)>li>p:nth-child(1)>em {
+	font-size: 52px;
+	font-weight: bold;
+}
+
+section>div.view>div:nth-child(1)>div>ul:nth-child(3)>li>p:nth-child(2) {
+	width: 225px;
+	margin-top: 1px;
+	font-size: 23px;
+	line-height: 27px;
+	letter-spacing: -0.72px;
+	color: #522800;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+section>div.view>div:nth-child(1)>div>ul:nth-child(3)>li>p:nth-child(3) {
+	margin-top: 8px;
+	width: 225px;
+	line-height: 20px;
+	font-size: 16px;
+	color: #522800;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+section>div.view>div:nth-child(1)>div>ul:nth-child(3)>li>a {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: block;
+	width: 362px;
+	height: 53px; 
+	border: 1px solid #8d4d2e;
+	background: #fff;
+}
+
+section>div.view>div:nth-child(1)>div>ul:nth-child(3)>li>a::before{
+	content:'';
+	position: absolute;
+	top: 50%;
+	left: 58%;
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url('../images/icon-down.png') 0 0 no-repeat;
+	transform: translate(-50%, -50%);
+	}
+
+section>div.view>div:nth-child(1)>div>ul:nth-child(3)>li>a>span {
+	display: block;
+	line-height: 51px;
+	padding-right: 35px;
+	font-size: 16px;
+	text-align: center;
+	color: #8d4d2e;
+	overflow: hidden;
+}
+
+div.green_btn_box {
+	height: 100px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+div.green_btn_box >a {
+	width: 240px;
+	height: 56px;
+	margin-right: 10px;
+	font-size: 16px;
+	line-height: 54px;
+	display: inline-block;
+	text-align: center;
+	font-weight: 700;
+	color: #101010;
+	border: 1px solid #BDD61A;
+	background-color: #BDD61A;
+}
+
+
+div.gray_box{
+	width:100%;
+	height:100%;
+	background: #f7f7f7;
+	padding: 32px 32px;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+div.gray_box>h3{
+	margin-top: 10px;
+	line-height: 40px;
+	font-size: 19px;
+	
+}
+div.gray_box>h3:nth-of-type(1){
+	margin-top: -15px;
+}
+
+div.gray_box>span.fc_dgreen{
+	color:#008A00;
+}
+div.gray_box.white_back{
+	background: white;
+}
+
+
+/*공지 박스*/
+
+section>div.view>div>div.noti_box{ margin-top: 40px; width: 100%;word-break: break-all; letter-spacing: -0.5px;} 
+section>div.view>div>div.noti_box>h1{ padding-bottom: 36px; border-bottom: 4px solid #202020; color: #101010; font-weight: 700; font-size: 40px; line-height: 56px; color: #101010;} 
+section>div.view>div>div.noti_box>div>ul { position: relative; width: 100%; font-size: 0;margin-top: 36px}
+section>div.view>div>div.noti_box>div>ul>li { display: inline-block; width: initial; text-align: center; vertical-align: top;}
+section>div.view>div>div.noti_box>div>ul>li>a { padding-left: 0; display: block; width: 100%; height: 100%; padding: 0 12px; white-space: nowrap;} 
+section>div.view>div>div.noti_box>div>ul>li:nth-child(1)>a>span { position: relative; z-index: 1; display: inline-block; height: 41px; color: #606060; font-weight: 500; font-size: 24px; line-height: 34px; vertical-align: top;}
+section>div.view>div>div.noti_box>div>ul>li:nth-child(2)>a>span { border-bottom: 3px solid #202020; color: #101010; font-weight: 700; position: relative; z-index: 1; display: inline-block; height: 41px; font-size: 24px; line-height: 34px; vertical-align: top;}
+section>div.view>div>div.noti_box>div>ul>li:nth-child(3)>a>span { position: relative; z-index: 1; display: inline-block; height: 41px; color: #606060; font-weight: 500; font-size: 24px; line-height: 34px; vertical-align: top;}
+
