@@ -6,10 +6,10 @@
 
 ----
 
-* **File naming**: snake_case (<span style="color:red">**html, css , jsp**</span> 파일만 해당합니다. + dto 변수)
-* **default naming**: CamelCase (java class,  ...... )
+
 
  :star: <u>jsp와 servlet으로 mvc 모델 구현</u>
+ :star: <u>JDBC를 사용한 데이터베이스 연동</u>
 
 
 ### Structure
